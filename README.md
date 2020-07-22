@@ -34,43 +34,7 @@
 - 返回结果和异常统一处理
 - 结合RxJava2，线程智能控制
 
-## 关于我
-[![github](https://img.shields.io/badge/GitHub-zhou--you-green.svg)](https://github.com/zhou-you)   [![csdn](https://img.shields.io/badge/CSDN-zhouy478319399-green.svg)](http://blog.csdn.net/zhouy478319399)
-## 联系方式
-本群旨在为使用我github项目的人提供方便，如果遇到问题欢迎在群里提问。
 
-#### 欢迎加入QQ交流群（Q1群已满，请加入Q2群）
-
-[![](https://img.shields.io/badge/%E7%82%B9%E6%88%91%E4%B8%80%E9%94%AE%E5%8A%A0%E5%85%A5Q1%E7%BE%A4-581235049%28%E5%B7%B2%E6%BB%A1%29-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=1e1f4bcfd8775a55e6cf6411f6ff0e7058ff469ef87c4d1e67890c27f0c5a390)
-
-[![](https://img.shields.io/badge/%E7%82%B9%E6%88%91%E4%B8%80%E9%94%AE%E5%8A%A0%E5%85%A5Q2%E7%BE%A4-832887601-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=f3c997d1c3cc6a8c9fa46d3fde0d663f50e4e6d0e6441b8cc276bef39befd24c)
-
-![](http://img.blog.csdn.net/20170601165330238)![](https://img-blog.csdnimg.cn/20190627164802234.jpg)
-## 演示（请star支持）
-![](https://github.com/zhou-you/RxEasyHttp/raw/master/screenshot/1.gif) ![](https://github.com/zhou-you/RxEasyHttp/raw/master/screenshot/2.gif)
-![](https://github.com/zhou-you/RxEasyHttp/raw/master/screenshot/3.gif) ![](https://github.com/zhou-you/RxEasyHttp/raw/master/screenshot/4.gif)
-
-### RxEasyHttp与Rxjava结合使用场景演示
-![](https://github.com/zhou-you/RxEasyHttp/raw/master/screenshot/5.gif)
-
-**[RxEasyHttp网络库与Rxjava2结合常见使用场景介绍    点我！！！>>](http://blog.csdn.net/zhouy478319399/article/details/78550248)**
-
-[![](https://badge.juejin.im/entry/5a0d4d0d6fb9a045080934f1/likes.svg?style=plastic)](https://juejin.im/post/5a0d4cd851882531ba108090)
-
-## 版本说明
-
-### 当前版本
-[![release](https://img.shields.io/badge/release-V2.1.2-orange.svg)](https://github.com/zhou-you/RxEasyHttp/blob/master/update.md)
-
-**[历史版本，点我、点我、点我>>](https://github.com/zhou-you/RxEasyHttp/blob/master/update.md)**
-
-## 用法介绍
-目前只支持主流开发工具AndtoidStudio的使用，没有提供Eclipse使用方式.
-本项目Demo的网络请求的服务器地址为了安全，把url去掉了，但是Demo程序中的示例都是ok的
-### 点击按钮下载Demo
-[![downloads](https://img.shields.io/badge/downloads-2.2M-blue.svg)](https://github.com/zhou-you/RxEasyHttp/blob/master/apk/rxeasyhttp-demo.apk?raw=true) 
-#### 扫码下载Demo
-![](https://github.com/zhou-you/RxEasyHttp/blob/master/screenshot/down.png?raw=true)
 
 ### build.gradle设置
 ```
@@ -80,7 +44,6 @@ dependencies {
 ```
 想查看所有版本，请点击下面地址。
 
-[![jcenter](https://img.shields.io/badge/Jcenter-Latest%20Release-orange.svg)](https://jcenter.bintray.com/com/zhouyou/rxeasyhttp/)
 ## 权限说明
 如果使用本库实现文件下载到SD卡、或者配置了缓存数据到SD卡，你必须要考虑到Android6.0及以上系统的运行时权限，给大家推荐两个权限库：
 
@@ -119,7 +82,7 @@ public class MyApplication extends Application {
 ```
 
 ## 默认初始化
-如果使用默认始化后，一切采用默认设置。如果你需要配置全局超时时间、缓存、Cookie、底层为OkHttp的话，请看[高级初始化](https://github.com/zhou-you/RxEasyHttp#高级初始化)。
+如果使用默认始化后，一切采用默认设置。如果你需要配置全局超时时间、缓存、Cookie、底层为OkHttp
 ```
 public class MyApplication extends Application {
 
@@ -1310,7 +1273,7 @@ public class MyApplication extends Application {
 -keep class com.zhouyou.http.cache.model.** {*;}
 -keep class com.zhouyou.http.cache.stategy.**{*;}
 ```
-[请查看Demo中完整的混淆文件](https://github.com/zhou-you/RxEasyHttp/blob/master/app/proguard-rules.pro)
+
 
 ## 支持开源
 乐于赞赏，感谢朋友们的支持和鼓励，让我们一起努力做一些好东西! 

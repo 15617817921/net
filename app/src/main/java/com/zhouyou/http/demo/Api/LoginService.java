@@ -19,9 +19,7 @@ package com.zhouyou.http.demo.Api;
 
 import com.zhouyou.http.demo.model.AuthModel;
 import com.zhouyou.http.model.ApiResult;
-
 import java.util.Map;
-
 import io.reactivex.Observable;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
