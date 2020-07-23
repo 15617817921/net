@@ -1169,7 +1169,6 @@ EasyHttp.get(url)
         return execute(new CallBackProxy<CustomApiResult<T>, T>(callBack) {
         });
     }
-```
 
 通过以上改造，再次调用时直接使用CallBack，不用再关注CallBackProxy，是不是明显简单很多了，具体请看代码Demo!!!
 ##### 自定义ApiResult订阅方式（通过CallClazzProxy代理）
